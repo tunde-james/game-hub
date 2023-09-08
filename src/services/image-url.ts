@@ -1,5 +1,5 @@
 const getCroppedImageUrl = (url: string) => {
-  if (!url) return '';
+  if (!url) return '/images/no-image-placeholder-6f3882e0.webp';
 
   const target = 'media/';
   const index = url.indexOf(target) + target.length;
