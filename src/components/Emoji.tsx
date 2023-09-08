@@ -20,3 +20,4 @@ function Emoji({ rating }: Props) {
 }
 
 export default Emoji;
+ 
