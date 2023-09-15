@@ -15,7 +15,7 @@ function useGenres() {
     queryKey: ['genres'],
     queryFn: apiClient.getAll,
     staleTime: 24 * 60 * 60 * 100, //24hrs
-    initialData: { count: genres.length, results: genres },
+    initialData: genres,
   });
 }
 
